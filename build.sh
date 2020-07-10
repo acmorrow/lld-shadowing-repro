@@ -20,4 +20,4 @@ clang -shared -o libsymbol_user.so symbol_user.o libsymbol_wrapper.so libbad_sym
 
 clang -fPIE -pie main.c -o main libsymbol_user.so libbad_symbol.a $LINKFLAGS
 
-./main || echo "FAILED"
+./main

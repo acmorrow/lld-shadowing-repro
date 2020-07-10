@@ -16,4 +16,4 @@ clang -shared -o libsymbol_user.dylib symbol_user.o libsymbol_wrapper.dylib libb
 
 clang main.c -o main libsymbol_user.dylib libbad_symbol.a $LINKFLAGS
 
-./main || echo "FAILED"
+./main
