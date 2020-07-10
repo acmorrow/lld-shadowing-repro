@@ -16,3 +16,5 @@ disambiguate the symbol in such a way that a static definition from
 
 This appears to work correctly with `ld.bfd` and `ld.gold`, but not
 with `ld.lld`.
+
+LLVM bug: https://bugs.llvm.org/show_bug.cgi?id=46676
