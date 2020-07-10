@@ -1,0 +1,6 @@
+LIB_GOOD_API_1 {
+     global:
+        shadowed;
+     local:
+        *;
+};
